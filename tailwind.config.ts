@@ -7,7 +7,8 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
+    extend: {
+      colors: {
       'stone': {
         200: '#e7e5e4',
         500: '#78716c',
@@ -19,7 +20,6 @@ const config: Config = {
       'emerald' :'#022c22',
       'rose' :'#4c0519'
     },
-    extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
