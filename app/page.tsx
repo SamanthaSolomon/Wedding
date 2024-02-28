@@ -1,9 +1,11 @@
+import { monsieur_la_doulaise } from "./fonts"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSee_6A2bktpfFY5MDVvCrXvlRFmGl18ATalCLTvs-G2CT7lpw/viewform?embedded=true" width="640" height="1251">Loading…</iframe>
+    <main className="flex min-h-screen items-center justify-between p-24 bg-gradient-to-r from-amber to-stone-200">
+      <div className="max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+        <h1 className={`${monsieur_la_doulaise.className} text-4xl`}>Wedding and Handfasting of Samantha and Chuck</h1>
+        
       </div>
     </main>
   );

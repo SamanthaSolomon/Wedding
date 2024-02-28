@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { monsieur_la_doulaise } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Chuck and Samantha's Wedding Website",
@@ -16,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={monsieur_la_doulaise.className}>{children}</body>
     </html>
   );
 }
