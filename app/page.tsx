@@ -18,7 +18,9 @@ export default function Home() {
         <Link target="blank" href="https://mimslyninn.com/luray-hotel-accommodations/" className="button mt-5 lg:mt-10">
             <button className={`${abhaya_libre.className} text-xl`}>Book Your Room</button>
         </Link>  
-        <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}>This will be a weekend event at The Mimslyn Inn in Luray, VA with ceremony and reception on Saturday and breakfast on Sunday. Guests are welcome to arrive on Friday or Saturday. Less expensive rooms in group house available; contact Samantha or Chuck for info.</p>
+        <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}>This will be a weekend event at The Mimslyn Inn in Luray, VA with ceremony and reception on Saturday and breakfast on Sunday. Guests are welcome to arrive on Friday or Saturday.</p> 
+        <p className={`${abhaya_libre.className} font-bold text-base xl:text-xl mt-4`}>Please call (540) 743-5105 and specify you are a Dye-Solomon Wedding Guest to get our event rate.</p>
+        <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}> Less expensive rooms in group house available. Contact Samantha or Chuck for info.</p>
       </div>
     </div>
   </main>
