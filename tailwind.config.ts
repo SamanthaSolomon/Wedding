@@ -20,11 +20,6 @@ const config: Config = {
       'emerald' :'#022c22',
       'rose' :'#4c0519'
     },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
     },
   },
   plugins: [],
