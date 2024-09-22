@@ -2,8 +2,9 @@ import { meddon } from "./fonts"
 import Image from "next/image";
 import Link from "next/link";
 import { abhaya_libre } from "./fonts";
+import EmblaCarousel from "./carousel"
 
-export default function Home() {
+export default function Home() {  
   return (
   <main className="flex justify-center min-h-screen items-center p-7 xl:p-24 bg-gradient-to-r from-stone-700 to-stone-200">
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-14 justify-items-center">
@@ -68,7 +69,7 @@ export default function Home() {
       </div>
       {/* attire inspiration */}
       <div className="flex flex-col justify-center  xl:max-w-[500px] mt-8">
-        <Image src="/creeper.jpg" alt="creeper lady" width={545} height={500}></Image>
+        <EmblaCarousel/>
       </div>
       <div id='attire' className="flex flex-col justify-center xl:max-w-[500px] my-40">
         <h1 className={`${meddon.className} text-base xl:text-6xl my-8`}>Attire Inspriation</h1>
