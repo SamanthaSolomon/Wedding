@@ -72,7 +72,7 @@ export default function Home() {
       </div>
       <div id='attire' className="flex flex-col justify-center xl:max-w-[500px] my-40">
         <h1 className={`${meddon.className} text-base xl:text-6xl my-8`}>Attire Inspriation</h1>
-        <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}>Formal wedding attire sits between cocktail and black tie on the wedding dress code scale. It's slightly more elevated than cocktail attire and a touch less dressy than a black-tie nuptial. We encourage guests to lean into our theme of wintery woods, pagan, witchy, and ritual.</p>
+        <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}>Formal wedding attire sits between cocktail and black tie on the wedding dress code scale. It's slightly more elevated than cocktail attire and a touch less dressy than a black-tie nuptial. We encourage guests to lean into our theme of wintery woods, pagan, witchy, and rituals.</p>
       </div>
     </div>
   </main>
