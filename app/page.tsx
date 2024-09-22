@@ -36,17 +36,35 @@ export default function Home() {
         <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}> Less expensive rooms in group house available. Contact Samantha or Chuck for info.</p>
       </div>
       <div className="flex flex-col justify-center  xl:max-w-[500px] mt-8">
-        <Image src="/mimslyn-color.jpg" alt="invite front" width={545} height={500}></Image>
+        <Image src="/mimslyn-color.jpg" alt="mimslyn inn" width={545} height={500}></Image>
       </div>
       {/* Ceremony & Reception */}
       <div className="flex flex-col justify-center  xl:max-w-[500px] mt-8">
-        <Image src="/Luray-Vertical.jpg" alt="invite front" width={545} height={500}></Image>
+        <Image src="/Luray-Vertical.jpg" alt="luray" width={545} height={500}></Image>
       </div>
       <div className="flex flex-col justify-center xl:max-w-[500px] my-40">
         <h1 className={`${meddon.className} text-base xl:text-6xl my-8`}>Ceremony & Reception</h1>
         <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}>Luray Caverns<br></br>101 Cave Hill Rd.<br></br>Luray, VA 22835-5260</p>
         <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}>Ceremony include a 1.75 mile guided walking tour through the caverns. The path is well lit with small inclines.</p>
         <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}> A shortcut directly to the ceremony site is available. Please get in touch with Chuck or Sam if interested.</p>
+        <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}>Reception to follow at The Mimslyn Inn.</p>
+      </div>
+      {/* Order of the Weekend */}
+      <div className="flex flex-col justify-center xl:max-w-[500px] my-40">
+        <h1 className={`${meddon.className} text-base xl:text-6xl my-8`}>Order of the Weekend</h1>
+        <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4 underline underline-offset-8`}>Saturday, January 18th</p>
+        <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}>3:00pm<br></br>Check In at The Mimslyn Inn</p>
+        <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}>4:30pm<br></br>Gather at Luray Caverns Entrance</p>
+        <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}>5:00pm<br></br>Tour & Ceremony Begins</p>
+        <p className={`${abhaya_libre.className} text-base xl:text-xl`}>Latecomers will not be able to enter</p>
+        <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}>6:00pm<br></br>Cocktails & Reception at The Mimslyn Inn</p>
+        <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}>10:30pm<br></br>After Party at The Manor House</p>
+        <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4 underline underline-offset-8`}>Sunday, January 19th</p>
+        <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}>9:00am - 11:00am<br></br>Brunch in The Blue Room</p>
+        <p className={`${abhaya_libre.className} text-base xl:text-xl mt-4`}>11:00am<br></br>Check Out and Farewell</p>
+      </div>
+      <div className="flex flex-col justify-center  xl:max-w-[500px] mt-8">
+        <Image src="/tarot.jpg" alt="tarot" width={545} height={500}></Image>
       </div>
     </div>
   </main>
