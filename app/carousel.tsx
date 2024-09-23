@@ -1,8 +1,8 @@
-'use client'
-import React, { useEffect, useState } from 'react'
-import useEmblaCarousel from 'embla-carousel-react'
+"use client"
+import React, { useEffect, useState } from "react"
+import useEmblaCarousel from "embla-carousel-react"
 import Image from "next/image";
-import Autoplay from 'embla-carousel-autoplay'
+import Autoplay from "embla-carousel-autoplay"
 
 export default function EmblaCarousel() {
 
@@ -16,11 +16,11 @@ export default function EmblaCarousel() {
 
   const [windowSize, setWindowSize] = useState(0)
     useEffect(() => {
-        if (typeof window !== 'undefined'){
+        if (typeof window !== "undefined"){
             setWindowSize(window.innerWidth)
         }
     }, [])
-    console.log('window size', windowSize)
+    console.log("window size", windowSize)
 
   if (windowSize <= 780) {
     return (
