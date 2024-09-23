@@ -31,3 +31,9 @@
   min-width: 0;
 }
 
+.embla__slide_mobile {
+  flex: 0 0 100%;
+  min-width: 0;
+  max-height: 525px;
+  overflow: clip;
+}
