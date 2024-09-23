@@ -88,7 +88,7 @@ export default function Home() {
           <EmblaCarousel/>
         </div>
         <div id="attire" className="flex flex-col justify-center my-8">
-          <h1 className={`${meddon.className} text-4xl my-8`}>Attire Inspriation</h1>
+          <h1 className={`${meddon.className} text-4xl my-4`}>Attire Inspriation</h1>
           <p className={`${abhaya_libre.className} text-lg mt-4`}>Formal wedding attire sits between cocktail and black tie on the wedding dress code scale. It"s slightly more elevated than cocktail attire and a touch less dressy than a black-tie nuptial. We encourage guests to lean into our theme of wintery woods, pagan, witchy, and rituals.</p>
           <Link href="#top" className={`${abhaya_libre.className} text-lg xl:text-xl mt-4 underline underline-offset-8`}>Back to top</Link>
         </div>
@@ -167,7 +167,7 @@ export default function Home() {
       </div>
       <div id="attire" className="flex flex-col justify-center xl:max-w-[500px] my-40">
         <h1 className={`${meddon.className} text-6xl my-8`}>Attire Inspriation</h1>
-        <p className={`${abhaya_libre.className} text-xl mt-4`}>Formal wedding attire sits between cocktail and black tie on the wedding dress code scale. It"s slightly more elevated than cocktail attire and a touch less dressy than a black-tie nuptial. We encourage guests to lean into our theme of wintery woods, pagan, witchy, and rituals.</p>
+        <p className={`${abhaya_libre.className} text-xl mt-4`}>Formal wedding attire sits between cocktail and black tie on the wedding dress code scale. It's slightly more elevated than cocktail attire and a touch less dressy than a black-tie nuptial. We encourage guests to lean into our theme of wintery woods, pagan, witchy, and rituals.</p>
         <Link href="#top" className={`${abhaya_libre.className} text-xl mt-4 underline underline-offset-8`}>Back to top</Link>
       </div>
     </div>
