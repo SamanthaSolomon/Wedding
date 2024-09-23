@@ -9,15 +9,15 @@ import { useState, useEffect } from "react";
 
 export default function Home() { 
 
-  const [windowSize, setWindowSize] = useState(0)
+  const [useWindowSize, setUseWindowSize] = useState(0)
     useEffect(() => {
         if (typeof window !== "undefined"){
-            setWindowSize(window.innerWidth)
+            setUseWindowSize(window.innerWidth)
         }
     }, [])
-    console.log("window size", windowSize)
+    console.log("window size", useWindowSize)
   
-  if (windowSize <= 780){
+  if (useWindowSize <= 780){
     return (
     <main className="flex justify-center min-h-screen items-center p-7 xl:p-24 bg-gradient-to-r from-stone-700 to-stone-200">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-14 justify-items-center">

@@ -14,15 +14,15 @@ export default function EmblaCarousel() {
     }
   }, [emblaApi])
 
-  const [windowSize, setWindowSize] = useState(0)
+  const [useWindowSize, setUseWindowSize] = useState(0)
     useEffect(() => {
         if (typeof window !== "undefined"){
-            setWindowSize(window.innerWidth)
+            setUseWindowSize(window.innerWidth)
         }
     }, [])
-    console.log("window size", windowSize)
+    console.log("window size", useWindowSize)
 
-  if (windowSize <= 780) {
+  if (useWindowSize <= 780) {
     return (
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
