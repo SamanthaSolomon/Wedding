@@ -60,9 +60,14 @@ export default function Home() {
         <div className="flex flex-col justify-center my-8">
           <h1 className={`${meddon.className} text-4xl my-8`}>Ceremony & Reception</h1>
           <p className={`${abhaya_libre.className} text-lg mt-4`}>Luray Caverns<br></br>101 Cave Hill Rd.<br></br>Luray, VA 22835-5260</p>
-          <p className={`${abhaya_libre.className} text-lg mt-4`}>Ceremony include a 1.75 mile guided walking tour through the caverns. The path is well lit with small inclines.</p>
+          <p className={`${abhaya_libre.className} text-lg mt-4`}>Cavern temperature is always 54 degrees. Ceremony includes a 1.75 mile guided walking tour through the caverns. The path is well lit with small inclines.</p>
           <p className={`${abhaya_libre.className} text-lg mt-4`}> A shortcut directly to the ceremony site is available. Please get in touch with Chuck or Sam if interested.</p>
-          <p className={`${abhaya_libre.className} text-lg mt-4`}>Reception to follow at The Mimslyn Inn.</p>
+          <p className={`${abhaya_libre.className} text-lg mt-4`}>Reception with a cocktail hour, dinner and dancing to follow at The Mimslyn Inn.</p>
+          <p className={`${abhaya_libre.className} text-lg font-bold mt-4`}>Menu Options</p>
+          <p className={`${abhaya_libre.className} text-lg mt-4`}>Beef tenderloin with mushroom sauce, roasted potatoes and brocollini.</p>
+          <p className={`${abhaya_libre.className} text-lg mt-4`}>Bone-in chicken with cherry brandy sauce, goat-cheese polenta and brocollini.</p>
+          <p className={`${abhaya_libre.className} text-lg mt-4`}>Stuffed portabello mushroom with gruyere sauce, quinoa salad and brocollini.</p>
+          <p className={`${abhaya_libre.className} text-lg mt-4`}>Vegan option is portabello mushroom without dairy. All meals are gluten free.</p>
           <Link href="#top" className={`${abhaya_libre.className} text-lg mt-4 underline underline-offset-8`}>Back to top</Link>
         </div>
         {/* Order of the Weekend */}
@@ -138,9 +143,14 @@ export default function Home() {
       <div className="flex flex-col justify-center xl:max-w-[500px] my-40">
         <h1 className={`${meddon.className} text-6xl my-8`}>Ceremony & Reception</h1>
         <p className={`${abhaya_libre.className} text-xl mt-4`}>Luray Caverns<br></br>101 Cave Hill Rd.<br></br>Luray, VA 22835-5260</p>
-        <p className={`${abhaya_libre.className} text-xl mt-4`}>Ceremony include a 1.75 mile guided walking tour through the caverns. The path is well lit with small inclines.</p>
+        <p className={`${abhaya_libre.className} text-xl mt-4`}>Cavern temperature is always 54 degrees. Ceremony includes a 1.75 mile guided walking tour through the caverns. The path is well lit with small inclines</p>
         <p className={`${abhaya_libre.className} text-xl mt-4`}> A shortcut directly to the ceremony site is available. Please get in touch with Chuck or Sam if interested.</p>
-        <p className={`${abhaya_libre.className} text-xl mt-4`}>Reception to follow at The Mimslyn Inn.</p>
+        <p className={`${abhaya_libre.className} text-xl mt-4`}>Reception with a cocktail hour, dinner and dancing to follow at The Mimslyn Inn.</p>
+        <p className={`${abhaya_libre.className} text-lg font-bold mt-4`}>Menu Options</p>
+          <p className={`${abhaya_libre.className} text-lg mt-4`}>Beef tenderloin with mushroom sauce, roasted potatoes and brocollini.</p>
+          <p className={`${abhaya_libre.className} text-lg mt-4`}>Bone-in chicken with cherry brandy sauce, goat-cheese polenta and brocollini.</p>
+          <p className={`${abhaya_libre.className} text-lg mt-4`}>Stuffed portabello mushroom with gruyere sauce, quinoa salad and brocollini.</p>
+          <p className={`${abhaya_libre.className} text-lg mt-4`}>Vegan option is portabello mushroom without dairy. All meals are gluten free.</p>
         <Link href="#top" className={`${abhaya_libre.className} text-xl mt-4 underline underline-offset-8`}>Back to top</Link>
       </div>
       {/* Order of the Weekend */}
