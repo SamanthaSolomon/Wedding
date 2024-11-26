@@ -77,7 +77,7 @@ export default function Home() {
         <div id="schedule" className="flex flex-col justify-center my-8">
           <h1 className={`${meddon.className} text-4xl my-8`}>Order of the Weekend</h1>
           <p className={`${abhaya_libre.className} text-lg mt-4 underline underline-offset-8`}>Saturday, January 18th</p>
-          <p className={`${abhaya_libre.className} text-lg mt-4`}>3:00pm<br></br>Check In at The Mimslyn Inn</p>
+          <p className={`${abhaya_libre.className} text-lg mt-4`}>4:00pm<br></br>Check In at The Mimslyn Inn</p>
           <p className={`${abhaya_libre.className} text-lg mt-4`}>4:30pm<br></br>Gather at Luray Caverns Entrance</p>
           <p className={`${abhaya_libre.className} text-lg mt-4`}>5:00pm<br></br>Tour & Ceremony Begins</p>
           <p className={`${abhaya_libre.className} text-lg`}>Latecomers will not be able to enter</p>
@@ -157,7 +157,7 @@ export default function Home() {
       <div id="schedule" className="flex flex-col justify-center xl:max-w-[500px] my-40">
         <h1 className={`${meddon.className} text-6xl my-8`}>Order of the Weekend</h1>
         <p className={`${abhaya_libre.className} text-xl mt-4 underline underline-offset-8`}>Saturday, January 18th</p>
-        <p className={`${abhaya_libre.className} text-xl mt-4`}>3:00pm<br></br>Check In at The Mimslyn Inn</p>
+        <p className={`${abhaya_libre.className} text-xl mt-4`}>4:00pm<br></br>Check In at The Mimslyn Inn</p>
         <p className={`${abhaya_libre.className} text-xl mt-4`}>4:30pm<br></br>Gather at Luray Caverns Entrance</p>
         <p className={`${abhaya_libre.className} text-xl mt-4`}>5:00pm<br></br>Tour & Ceremony Begins</p>
         <p className={`${abhaya_libre.className} text-xl`}>Latecomers will not be able to enter</p>
